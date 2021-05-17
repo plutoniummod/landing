@@ -23,13 +23,13 @@ __Example Scripts__
 1\. You can write/download any GSC of your choice. If you are writing it from scratch/have the source code, note that you will need to compile it, which we will talk about in this post.
 
 ::: warning
-If you are writing your own GSC, you must have an `init()` or `main()` function somewhere. This is where your entry point is located.
+If you are writing your own GSC, you must have an `init()` or `main()` function somewhere. This function is called the 'entry point', and it's a function the game engine is familiar with and will call.
 :::
 
 2\. For this tutorial, we are going to be writing and using this GSC as a reference.
 
 ```c
-init()
+init() // entry point
 {
     level thread onplayerconnect();
 }
@@ -87,11 +87,11 @@ onplayerspawned()
 3\. Put any amount of GSC file(s) in here, I will be using the following code as an example.
 
 ::: warning
-If you are writing your own GSC, you must have an `init()` function somewhere, like I do in this example.
+If you are writing your own GSC, you must have an `init()` or `main()` function somewhere. This function is called the 'entry point', and it's a function the game engine is familiar with and will call.
 :::
 
 ```c
-init()
+init() // entry point
 {
     level thread onplayerconnect();
 }

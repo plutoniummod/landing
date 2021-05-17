@@ -136,6 +136,14 @@ module.exports = {
                         '/modding/t4/disabling-perks-gsc'
                     ],
                 },
+                {
+                    title: "T6 Modding",
+                    collapsable: false,
+                    children: [
+                        '/modding/t6/',
+                        '/modding/t6/compiler-limitations'
+                    ],
+                },
             ],
             "/": [{
                     title: "General",
