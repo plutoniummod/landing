@@ -141,6 +141,7 @@ module.exports = {
                     collapsable: false,
                     children: [
                         '/modding/t6/',
+                        '/modding/t6/gsc-syntax-features',
                         '/modding/t6/compiler-limitations'
                     ],
                 },
