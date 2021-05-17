@@ -20,39 +20,41 @@ __Example Scripts__
 ---
 
 ### Getting Started
-1\. Write/Download any GSC of your choice, if you are writing it from scratch/have the source code, note that you need to compile it, which we will talk about in this post.
+1\. You can write/download any GSC of your choice. If you are writing it from scratch/have the source code, note that you will need to compile it, which we will talk about in this post.
 
 ::: warning
-If you are writing your own GSC, you must have an `init()` function somewhere.
+If you are writing your own GSC, you must have an `init()` or `main()` function somewhere. This is where your entry point is located.
 :::
 
-2\. For this tutorial we are going to be using this GSC as a reference.
+2\. For this tutorial, we are going to be writing and using this GSC as a reference.
 
 ```c
 init()
 {
-  level thread onConnect();
+    level thread onplayerconnect();
 }
-onConnect()
+
+onplayerconnect()
 {
-  for (;;)
-  {
-    level waittill("connected", player);
-    player thread connected();
-  }
+    for(;;)
+    {
+        level waittill("connected", player);
+        player thread onplayerspawned();
+    }
 }
-connected()
+
+onplayerspawned()
 {
-  self endon("disconnect");
-  for(;;)
-  {
-    self waittill("spawned_player");
-    self iprintlnbold("^2GSC from %LocalAppdata%\\Plutonium\\storage\\t6\\scripts\\mp\\test.gsc ^1(Compiled)");
-  }
+    self endon("disconnect");
+    for(;;)
+    {
+        self waittill("spawned_player");
+        self iprintlnbold("^2GSC from %LocalAppdata%\\Plutonium\\storage\\t6\\scripts\\mp\\test.gsc ^1(Compiled)");
+    }
 }
 ```
 
-3\. Using the GSC Compiler, simply drop your raw GSC script ontop of `Compiler.exe` and it should spit out a compiled version.
+3\. Using the GSC Compiler (from GSC Toolkit), simply drag and drop your raw GSC script ontop of `Compiler.exe` and it should spit out a compiled version.
 
 ![compiling process](https://i.imgur.com/OWtguHd.gif)
 
@@ -62,7 +64,7 @@ connected()
 
 3b\. Take your compiled script and put it in `%localappdata%\Plutonium\storage\t6\scripts\mp` or `%localappdata%\Plutonium\storage\t6\scripts\zm` depending on which mode it is for.
 
-**YOU MOST LIKELY WILL NOT HAVE THIS FOLDER, PLEASE CREATE THEM IF THAT IS THE CASE**  
+**(YOU MOST LIKELY WILL NOT HAVE THIS FOLDER, PLEASE CREATE THEM IF THAT IS THE CASE)**  
 
 4\. When launching your server or a custom game, you will know if all has gone well or not if the console prints `Custom script 'scripts/mp/yourScriptName' loaded`.
 
@@ -91,24 +93,26 @@ If you are writing your own GSC, you must have an `init()` function somewhere, l
 ```c
 init()
 {
-  level thread onConnect();
+    level thread onplayerconnect();
 }
-onConnect()
+
+onplayerconnect()
 {
-  for (;;)
-  {
-    level waittill("connected", player);
-    player thread connected();
-  }
+    for(;;)
+    {
+        level waittill("connected", player);
+        player thread onplayerspawned();
+    }
 }
-connected()
+
+onplayerspawned()
 {
-  self endon("disconnect");
-  for(;;)
-  {
-    self waittill("spawned_player");
-    self iprintlnbold("^2GSC from %localappdata%\Plutonium\storage\iw5\scripts\example.gsc");
-  }
+    self endon("disconnect");
+    for(;;)
+    {
+        self waittill("spawned_player");
+        self iprintlnbold("^2GSC from %localappdata%\Plutonium\storage\iw5\scripts\example.gsc");
+    }
 }
 ```
 
@@ -132,7 +136,7 @@ Currently, the `CoDWaW\mods` folder is buggy, please move your mods to the `%loc
 
 You can place your mod in either of these places:
 * `%localappdata%\Activision\CoDWaW\mods`    **[BUGGY ATM, MOVE YOUR MODS/MAPS FROM HERE TO THE DIRECTORY BELOW.]**
-* `%localappdata%\Plutonium\storage\t4\mods`   \*Recommended\*
+* `%localappdata%\Plutonium\storage\t4\mods`   **(Recommended)**
 
 **We suggest using the Plutonium folder where possible though, if you crash due to a mod, try moving it to the Plutonium Mods folder instead.**
 
@@ -150,6 +154,6 @@ We support both the vanilla game folder and the Plutonium folder for loading cli
 
 You can place your mod in either of these places:
 * `%localappdata%\Activision\CoDWaW\usermaps`
-* `%localappdata%\Plutonium\storage\t4\usermaps`   \*Recommended\*
+* `%localappdata%\Plutonium\storage\t4\usermaps`   **(Recommended)**
 
 Once the map is installed, you must load a mod first. You can do something simple like `/fs_game mods/mp_custommaps; vid_restart` followed by `/map mp_yourmapname` and it should load right up.
