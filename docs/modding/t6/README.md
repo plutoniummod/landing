@@ -4,4 +4,6 @@ GSC, also known as "game script code", is Call of Duty's scripting language that
 
 ## "Where do I start?"
 
-Fortunately, the Plutonium community has a [[T6 Modding Support & Discussion]](https://forum.plutonium.pw/category/11/bo2-modding-support-discussion) category on the forums where you can ask for help or help others, and discuss modding-related topics. You can also discuss T6 modding in the [[Discord]](https://discord.gg/plutonium) at the **#bo2-modding** text channel.
+Fortunately, the Plutonium community has a [T6 Modding Support & Discussion](https://forum.plutonium.pw/category/11/bo2-modding-support-discussion) category on the forums where you can ask for help or help others, and discuss modding-related topics. You can also discuss T6 modding in the [Discord](https://discord.gg/plutonium) at the **#bo2-modding** text channel.
+
+If you are just looking for GSC syntax and features, check the next category.

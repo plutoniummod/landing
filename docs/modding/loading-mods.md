@@ -28,7 +28,7 @@ If you are writing your own GSC, you must have an `init()` or `main()` function 
 
 2\. For this tutorial, we are going to be writing and using this GSC as a reference.
 
-```c
+```cs
 init() // entry point
 {
     level thread onplayerconnect();
@@ -90,7 +90,7 @@ onplayerspawned()
 If you are writing your own GSC, you must have an `init()` or `main()` function somewhere. This function is called the 'entry point', and it's a function the game engine is familiar with and will call.
 :::
 
-```c
+```cs
 init() // entry point
 {
     level thread onplayerconnect();

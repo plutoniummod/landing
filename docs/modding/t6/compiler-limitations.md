@@ -1,4 +1,4 @@
-# Compiler Limitations
+# GSC Compiler Limitations [WIP]
 
 The compiler used for BO2 has some limitations and flaws that you will most likely run into at one point. Most of these are documented and are easy to work around if you just follow the correct way to do whatever you are doing. So, let's look at some.
 
@@ -21,11 +21,11 @@ If you still do not understand, just use parenthesis when operators are involved
 - You cannot use more than 2 conditions in an ``if`` statement connected by OR (``||``) operators enclosed in parenthesis.
 
    Example:
-   ```c
+   ```cs
    if ((a || b || c) && d)
    ```
    This will not compile. However, you can rewrite this as either of the two:
-   ```c
+   ```cs
    if ((a || b) && d || c && d)
    if (a && d || b && d || c && d)
    ```
@@ -33,15 +33,15 @@ If you still do not understand, just use parenthesis when operators are involved
 - You cannot use OR (``||``) operators in an ``if`` statement and in parenthesis if the string of conditions would not be on the leftmost side of the if statement and the number of conditions on the rightmost side is not at least 2.
 
    Example:
-   ```c
+   ```cs
    if (a && (b || c))
    ```
    This will not compile. However, 
-   ```c
+   ```cs
    if ((b || c) && a)
    ```
    will compile in the case of:
-   ```c
+   ```cs
    if ((a || b) && (c || d))
    ```
 
@@ -50,13 +50,13 @@ If you still do not understand, just use parenthesis when operators are involved
 - You cannot use variable-defined notifies/waittills with extra inputs/outputs.
 
    Example:
-   ```c
+   ```cs
    var = "connected";
    level notify(var, player);
    level waittill(var, player);
    ```
    This will compile. However, the notify/waittill will not work. This is the only way to do this:
-   ```c
+   ```cs
    level notify("connected", player);
    level waittill("connected", player);
    ```
