@@ -96,7 +96,7 @@ To launch BO2 simply open the Plutonium launcher and select PLAY.
 
 ### I just want to update / I already have MW3 installed
 
-If you already have the game installed from steam or had a previous update of Plutonium then you can skip the below section and move onto the [Installing the DLC](#installing-the-dlc) section.
+If you already have the game installed from Steam or had a previous update of Plutonium then you can skip the below section and move onto the [Installing the DLC](#installing-the-dlc) section.
 
 ### Installing the base game (Modern Warfare 3)
 
@@ -104,17 +104,22 @@ Note: This section will cover downloading a FREE copy of MW3. Please skip this s
 
 Please note we highly recommend buying the game if you do not own it, if you enjoy a game you should support it's developers.
 
-1. Open Steam, if you do not have Steam installed you can download it [here](https://store.steampowered.com/about/).
+Open Steam, if you do not have Steam installed you can download it [here](https://store.steampowered.com/about/).
 
-2. Go to `LIBRARY` and from the dropdown menu select `TOOLS`.
+#### Easy method
+Click on this link to start the installation of Call of Duty: Modern Warfare 3 - Dedicated Server in Steam steam://install/42750
+
+#### Manuel method (use this if the easy method didn't work)
+
+Go to `LIBRARY` and from the dropdown menu select `TOOLS`.
 
 ![img](/images/install/fzKXqGs.png)
 
-3. Locate `Call of Duty: Modern Warfare 3 - Dedicated Server`, select it and then click the cog icon then `Properties`.
+Locate `Call of Duty: Modern Warfare 3 - Dedicated Server`, select it and then click the cog icon then `Properties`.
 
 ![img](/images/install/ln7ml3F.png)
 
-4. Navigate to the `LANGUAGE` tab and ensure the language is step to `English` this is very important as unfortunately the Steam MW3 Dedicated Server can not install all languages and would result in missing files / errors.
+Navigate to the `LANGUAGE` tab and ensure the language is step to `English` this is very important as unfortunately the Steam MW3 Dedicated Server can not install all languages and would result in missing files / errors.
 
 ![img](/images/install/NXLe3YD.png)
 
