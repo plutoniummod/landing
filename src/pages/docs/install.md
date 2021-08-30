@@ -106,20 +106,21 @@ Please note we highly recommend buying the game if you do not own it, if you enj
 
 Open Steam, if you do not have Steam installed you can download it [here](https://store.steampowered.com/about/).
 
-#### Easy method
-Click on this link to start the installation of Call of Duty: Modern Warfare 3 - Dedicated Server in Steam steam://install/42750
+#### Method 1
 
-#### Manuel method (use this if the easy method didn't work)
+Click on this link to start the installation of Call of Duty: Modern Warfare 3 - Dedicated Server in Steam [steam://install/42750](steam://install/42750).
 
-Go to `LIBRARY` and from the dropdown menu select `TOOLS`.
+#### Method 2 (If Method 1 does not work)
+
+1. Go to `LIBRARY` and from the dropdown menu select `TOOLS`.
 
 ![img](/images/install/fzKXqGs.png)
 
-Locate `Call of Duty: Modern Warfare 3 - Dedicated Server`, select it and then click the cog icon then `Properties`.
+2. Locate `Call of Duty: Modern Warfare 3 - Dedicated Server`, select it and then click the cog icon then `Properties`.
 
 ![img](/images/install/ln7ml3F.png)
 
-Navigate to the `LANGUAGE` tab and ensure the language is step to `English` this is very important as unfortunately the Steam MW3 Dedicated Server can not install all languages and would result in missing files / errors.
+3. Navigate to the `LANGUAGE` tab and ensure the language is step to `English` this is very important as unfortunately the Steam MW3 Dedicated Server can not install all languages and would result in missing files / errors.
 
 ![img](/images/install/NXLe3YD.png)
 
@@ -129,7 +130,7 @@ If you want the game in your native language we suggest purchasing the game and 
 
 </Alert>
 
-5. Select `INSTALL` then `Next` then `Finish`.
+4. Select `INSTALL` then `Next` then `Finish`.
 
 ![img](/images/install/LVhQAtW.png)
 
