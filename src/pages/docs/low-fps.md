@@ -32,12 +32,12 @@ If you are encountering Low FPS you can try these steps to increase it.
 
 ## Method 3
 
-1. Open the console https://plutonium.pw/docs/opening-console/
+1. [Open the console](/docs/opening-console/)
 
-2. Type /com_maxfps 0 and press Enter (this command will tell the game to have an unlimited FPS cap so once you get this fixed you should set it your monitor refresh rate instead e.g /com_maxfps 60)
+2. Type `com_maxfps 0` and press Enter (this command unlocks your frame rate)
 
 ## Method 4
 
-Some computers can't handle higher graphics, lowering the graphics may help in the in-game graphic options could help on weaker computers.
+Some computers can't handle higher graphics, lowering your graphics settings in game may help on weaker computers.
 
-Also some games may get lower FPS when playing in windowed borderless mode or when playing in fullscreen. Try switching between both modes to see if one gives you more FPS.
+You can also try switching between windowed borderless mode, fullscreen, and normal windowed mode. Try switching between them to see if one gives you more FPS.
