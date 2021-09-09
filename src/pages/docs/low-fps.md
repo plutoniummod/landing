@@ -34,7 +34,7 @@ If you are encountering Low FPS you can try these steps to increase it.
 
 1. [Open the console](/docs/opening-console/)
 
-2. Type `com_maxfps 0` and press Enter (this command unlocks your frame rate)
+2. Type `com_maxfps 250` and press Enter (This command locks your framerate to 250, as higher values are known to cause instability.)
 
 ## Method 4
 
