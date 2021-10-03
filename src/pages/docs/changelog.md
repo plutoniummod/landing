@@ -1,20 +1,22 @@
 # Changelog
 
-This is a list of Plutonium updates, and the changes they introduced.
+This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
-## r2158-r21XX
+## r2158-r2190
 
 * IW5:
-  * [Aim Assist](aim-assist) added.
-  * Made improvements to Highrise, note that the map is still in beta.
+  * [Aim Assist](aim-assist) added. Click this link to learn how to make sure it's enabled for you in game. Server owners can disable this for their servers if they want to. It is on by default.
+  * Made improvements to Highrise, note that the map is still in beta. Red explosive barrels do not work and shadows look pixelated, turn off shadows in game options if this bothers you.
+  This map was previously restricted to certain server hosts as killstreaks would crash the map, this is now lifted and anyone can host the map.
+  This map will auto download as part of the update when you start Plutonium.exe - it is also playable in private match.
   * `sv_allowThirdPersonSpectator` added, which allows clients to spectate players in thirdperson.
-  * Controller deadzone configuration via dvar (`gpad_stick_deadzone_min`, `gpad_stick_deadzone_max`)
-  * Fixes controlling killstreaks like predator missile with a mouse while a controller is plugged in.
+  * Controller deadzone configuration via dvar (`gpad_stick_deadzone_min`, `gpad_stick_deadzone_max`) - use this to help with stick drift.
+  * Fixes controlling killstreaks like predator missile with a mouse while a controller is plugged in. This would stop the player controlling killstreaks with a controller in the past.
   * Errors now print to log file.
 
 * T6:
   * When in CODCaster free look (not spectating a specific player) the overhead names use team colors rather than everyone showing up as an enemy.
-  * Controller deadzone configuration via dvar (`gpad_stick_deadzone_min`, `gpad_stick_deadzone_max`)
+  * Controller deadzone configuration via dvar (`gpad_stick_deadzone_min`, `gpad_stick_deadzone_max`) - use this to help with stick drift.
   * Typing dvars in console and hitting enter will now output their value like other cods.
 
 ## r2155-r2158

@@ -2,6 +2,7 @@ import { frontMatter as intro } from '../pages/docs/intro.md';
 import { frontMatter as systemRequirements } from '../pages/docs/system-requirements.md';
 import { frontMatter as engineExplanations } from '../pages/docs/engine-explanations.md';
 import { frontMatter as install } from '../pages/docs/install.md';
+import { frontMatter as update } from '../pages/docs/update.md';
 import { frontMatter as uninstall } from '../pages/docs/uninstall.md';
 import { frontMatter as howCanIContribute } from '../pages/docs/how-can-i-contribute.md';
 import { frontMatter as socials } from '../pages/docs/socials.md';
@@ -86,6 +87,7 @@ export const sections = [
                     systemRequirements,
                     engineExplanations,
                     install,
+                    update,
                     uninstall,
                     antivirus,
                     howCanIContribute,

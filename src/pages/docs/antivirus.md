@@ -36,8 +36,8 @@ Note: right click to paste.
 ## **How do I fix this?** (Other Antivirus)
 
 Learn how to add a folder exclusion for Plutonium for your specific AV here:
-[Malwarebytes](https://support.malwarebytes.com/hc/en-us/articles/360038479234) | [Avast](https://support.avast.com/en-us/article/Antivirus-scan-exclusions/) | [Norton](https://support.norton.com/sp/en/us/home/current/solutions/v3672136) | [Kaspersky](https://support.kaspersky.com/keswin/10sp2/en-US/128138.htm)
-[AVG](https://support.avg.com/SupportArticleView?l=en&urlName=AVG-Antivirus-scan-exclusions&supportType=home) | [Bitdefender](https://www.bitdefender.com/consumer/support/answer/13427/) | [ESET NOD32](https://help.eset.com/eav/14/en-US/idh_detection_exclusions.html) | [G Data](https://help.gdatasoftware.com/b2c/GDAV/2014/en/index.html?410057.htm)
+[Malwarebytes](https://support.malwarebytes.com/hc/en-us/articles/360038479234) | [Avast](https://support.avast.com/en-us/article/Antivirus-scan-exclusions/) | [Norton](https://support.norton.com/sp/en/us/home/current/solutions/v3672136) | [Kaspersky](https://support.kaspersky.com/14848#block1)
+| [AVG](https://support.avg.com/SupportArticleView?l=en&urlName=AVG-Antivirus-scan-exclusions&supportType=home) | [Bitdefender](https://www.bitdefender.com/consumer/support/answer/13427/) | [ESET NOD32](https://help.eset.com/eav/14/en-US/idh_detection_exclusions.html) | [G Data](https://help.gdatasoftware.com/b2c/GDAV/2014/en/index.html?410057.htm)
 [Ahnlab](https://ask.ahnlab.com/hc/en-us/articles/900003233126--V3-ALL-Let-s-learn-about-setting-up-Scan-Exclusions)
 
 Note: the folder you want to exclude is: `C:\Users\YOUR-USERNAME-HERE\AppData\Local\Plutonium`

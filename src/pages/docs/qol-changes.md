@@ -4,7 +4,7 @@
 
 * [Anticheat](anticheat)
 * Controller Support
-* [Aim Assist](aim-assist) - Although this is WIP for MW3 and WAW.
+* [Aim Assist](aim-assist) - Although this is WIP for WAW.
 * `cg_fovScale` unlocked
 * `clanname` dvar, allowing clantags to function
 * `com_maxfps` unlocked
