@@ -12,7 +12,7 @@ In the console type the following command, replacing hash with the experience yo
 Note experience != level, please use the below table to work out the experience required for your desired rank.
 
 
-| Level | XP Required |
+| <span style={{color: '#d1d5db' }}>Level</span> | <span style={{color: '#d1d5db' }}>XP Required</span> |
 | ----- | ----------- |
 | 1     | 0           |
 | 2     | 800         |
