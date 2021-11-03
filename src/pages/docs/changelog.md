@@ -2,7 +2,7 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
-## r2234-r23XX
+## r2234-r2382
 
 * IW5:
   * [New Maps](/docs/client/iw5/custom-maps): Nuketown, Skidrow, and Favela.
