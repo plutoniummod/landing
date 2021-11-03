@@ -7,9 +7,13 @@ This is a list of Plutonium updates, and the changes they introduced. New update
 * IW5:
   * [New Maps](/docs/client/iw5/custom-maps): Nuketown, Skidrow, and Favela.
   * Performance fixes, so you should get higher FPS.
+  * Slowmotion should now work on dedicated servers.
+  * Various improvements and fixes to GSC scripting.
+  * Improved server stability
 
 * T6:
-  * Player Cards now function!
+  * Player Cards now save!
+  * Improved server stability
 
 ## r2190-r2234
 
