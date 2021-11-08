@@ -18,11 +18,15 @@ But when you want to play with people who aren't connected to your router (so ba
 ### What is port forwarding?
 
 To make it simple everything connected to the internet running on your PC uses a [port](https://en.wikipedia.org/wiki/Port_(computer_networking)).
-The internet going through these ports can either be **outbound connections** (you connecting to Google or to a game server for example) which doesn't require anything on your side or **incoming connections** which means you receive connections from the outside (hosting). In that case you need to **forward** the port used by your service (in that case your game server) to tell your router to allow connections from the outside on that specific port. Otherwise, by default and for security concerns the incoming connections on this port will be blocked. So if you understood this correctly: only the host needs to have a port opened (or UPnP enabled) on his router. The people joining don't need to do anything on their end, just like when you join a public server.
+The internet going through these ports can either be **outbound connections** (you connecting to Google or to a game server for example) which doesn't require anything on your side or **incoming connections** which means you receive connections from the outside (hosting). 
+In that case you need to **forward** the port used by your service (in that case your game server) to tell your router to allow connections from the outside on that specific port.
+Otherwise, by default and for security concerns the incoming connections on this port will be blocked. So if you understood this correctly: only the host needs to have a port opened (or UPnP enabled) on his router. The people joining don't need to do anything on their end, just like when you join a public server.
 
 ### What is UPnP?
 
-Throughout this guide you'll see the words "port forwarding" and "UPnP" mentionned. To host a server/custom game you need port forwarding which requires manual setup on your router. The idea behind [UPnP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play) is to let your router automatically open and close ports as you open/close services (such as game servers) on your PC, so it's basically an easy automatic port forwarding. Keep in mind that UPnP and port forwarding are two different things so **port forwarding will not enable UPnP**, but they have the same goal. UPnP is nice to have things work right away without any configuration but it doesn't work with every configuration so if it doesn't work for you, you will have to manually port forward instead.
+Throughout this guide you'll see the words "port forwarding" and "UPnP" mentionned. To host a server/custom game you need port forwarding which requires manual setup on your router. 
+The idea behind [UPnP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play) is to let your router automatically open and close ports as you open/close services (such as game servers) on your PC, so it's basically an easy automatic port forwarding. 
+Keep in mind that UPnP and port forwarding are two different things so **port forwarding will not enable UPnP**, but they have the same goal. UPnP is nice to have things work right away without any configuration but it doesn't work with every configuration so if it doesn't work for you, you will have to manually port forward instead.
 
 ## Add a friend to your friend list
 
