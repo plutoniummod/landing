@@ -14,7 +14,7 @@ But for indie games and passionate projects like Plutonium hosting a server for 
 
 Basically when you want to host a service such as a game server (or a private game with your friends) there is an important concept to understand: who can access my network and which service can they access. You don't want people from the outside to have access to everything on your PC.
 If you want to play with 2 PC connected on the same internet router you can connect to each other using your **local IP** because both devices trust each other.
-But when you want to play with people who aren't connected to your router (so basically people from outside your home) that's a different story because they're all considered as strangers and potential threats. This is where the concept of **port and port forwarding** comes in.
+But when you want to play with people who aren't connected to your router (so basically people from outside your home) that's a different story because they're all considered as strangers and potential threats. This is where the concept of **ports and port forwarding** comes in.
 
 ### What is port forwarding?
 
@@ -37,7 +37,7 @@ Both you and your friend need to follow each other on the Plutonium forums to jo
 - Go to their profile and hit the green "plus" (+) button to follow them.
   - If there is a heart, that means that you are already following them.
   
-Your friend should now appear in the Plutonium's overlay Friend list tab. If he doesn't appear just restart your game.
+Your friend will appear in the Plutonium overlay's Friend list tab if you both follow each other. If they don't appear just restart your game.
 
 ## T4 / T6
 
