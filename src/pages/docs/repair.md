@@ -1,15 +1,13 @@
 # How to repair your game files
 
-## Requirements
+## The repair Process for T4 and T6 (torrent)
 
-* [QBittorrent](https://www.fosshub.com/qBittorrent.html)
-* Basic knowledge of the windows folder structure
+### Requirements
+
+* [QBittorrent](https://www.fosshub.com/qBittorrent.html) (or any other torrent client)
 * The .torrent file of the game you want to repair:
   * [For T4](http://dss0.cc/alterwarez/download/pluto_t4_full_game.torrent)
   * [For T6](http://dss0.cc/alterwarez/download/pluto_t6_full_game.torrent)
-  * [For IW5 the repair process differs, click here to view the instructions for IW5](#the-repair-process-for-iw5)
-
-## The repair Process for T4 and T6 (torrent)
 
 1\. Open the .torrent file for the game you wish to repair in QBittorrent, if QBittorrent is the only torrent client you have installed simply double clicking the torrent file should open it right away.
 
