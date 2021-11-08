@@ -2,9 +2,7 @@
 
 ## The repair Process for T4 and T6
 
-<Alert 
-  variant="info" // ... or info, danger.
->
+<Alert variant="info">
 If you torrented the game, follow these steps. If you used Steam, follow [the Steam repair guide](#the-repair-process-for-t4-and-t6-steam)
 </Alert>
 
