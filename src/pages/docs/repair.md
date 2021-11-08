@@ -9,7 +9,7 @@
   * [For T6](http://dss0.cc/alterwarez/download/pluto_t6_full_game.torrent)
   * [For IW5 the repair process differs, click here to view the instructions for IW5](#the-repair-process-for-iw5)
 
-## The repair Process for T4 and T6
+## The repair Process for T4 and T6 (torrent)
 
 1\. Open the .torrent file for the game you wish to repair in QBittorrent, if QBittorrent is the only torrent client you have installed simply double clicking the torrent file should open it right away.
 
@@ -24,6 +24,16 @@
 5\. As soon as the download reached 100% and the status "seeding" it is complete and can be removed from QBittorrent (right click -> delete).
 
 Congratulations, your game files should now be repaired.
+
+## The repair Process for T4 and T6 (Steam)
+
+[Official Steam guide to repair your game](https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB)
+
+1. Go in your Steam library
+
+2. Right click on your game then click on Properties
+
+3. In the properties menu go in the **Local files tab** and click on **Verify integrity of game files**
 
 ## The repair Process for IW5
 
