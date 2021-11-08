@@ -1,10 +1,16 @@
 # How to repair your game files
 
-## The repair Process for T4 and T6 (torrent)
+## The repair Process for T4 and T6
+
+<Alert 
+  variant="info" // ... or info, danger.
+>
+If you torrented the game, follow these steps. If you used Steam, follow [the Steam repair guide](#the-repair-process-for-t4-and-t6-steam)
+</Alert>
 
 ### Requirements
 
-* [QBittorrent](https://www.fosshub.com/qBittorrent.html) (or any other torrent client)
+* [qBittorrent](https://www.fosshub.com/qBittorrent.html) (or any other torrent client)
 * The .torrent file of the game you want to repair:
   * [For T4](http://dss0.cc/alterwarez/download/pluto_t4_full_game.torrent)
   * [For T6](http://dss0.cc/alterwarez/download/pluto_t6_full_game.torrent)
