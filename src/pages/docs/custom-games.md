@@ -16,6 +16,12 @@ Basically when you want to host a service such as a game server (or a private ga
 If you want to play with 2 PC connected on the same internet router you can connect to each other using your **local IP** because both devices trust each other.
 But when you want to play with people who aren't connected to your router (so basically people from outside your home) that's a different story because they're all considered as strangers and potential threats. This is where the concept of **ports and port forwarding** comes in.
 
+### What is UPnP?
+
+Throughout this guide you'll see the words "port forwarding" and "UPnP" mentionned. To host a server/custom game you need port forwarding which requires manual setup on your router.
+The idea behind [UPnP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play) is to let your router automatically open and close ports as you open/close services (such as game servers) on your PC, so it's basically an easy automatic port forwarding.
+Keep in mind that UPnP and port forwarding are two different things so **port forwarding will not enable UPnP**, but they have the same goal. UPnP is nice to have things work right away without any configuration but it doesn't work with every configuration so if it doesn't work for you, you will have to manually port forward instead.
+
 ### What is port forwarding?
 
 To make it simple everything connected to the internet running on your PC uses a [port](https://en.wikipedia.org/wiki/Port_(computer_networking)).
@@ -23,11 +29,31 @@ The internet going through these ports can either be **outbound connections** (y
 In that case you need to **forward** the port used by your service (in that case your game server) to tell your router to allow connections from the outside on that specific port.
 Otherwise, by default and for security concerns the incoming connections on this port will be blocked. So if you understood this correctly: only the host needs to have a port opened (or UPnP enabled) on his router. The people joining don't need to do anything on their end, just like when you join a public server.
 
-### What is UPnP?
+### How to enable UPnP?
 
-Throughout this guide you'll see the words "port forwarding" and "UPnP" mentionned. To host a server/custom game you need port forwarding which requires manual setup on your router.
-The idea behind [UPnP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play) is to let your router automatically open and close ports as you open/close services (such as game servers) on your PC, so it's basically an easy automatic port forwarding.
-Keep in mind that UPnP and port forwarding are two different things so **port forwarding will not enable UPnP**, but they have the same goal. UPnP is nice to have things work right away without any configuration but it doesn't work with every configuration so if it doesn't work for you, you will have to manually port forward instead.
+- Enable UPnP on your router if it's not enabled already
+Since every router is different we can't make a guide for every router.
+We recommend searching "your router name + enable UPnP" on Google or searching in your router settings.
+
+- Go to Windows Settings -> Network & Internet, then hit Properties under your network name.
+
+![img](/images/docs/custom-games/PnaSif4.png)
+
+- Set the Network Profile to Private
+
+![img](/images/docs/custom-games/hC6G8QN.png)
+
+- Restart the game
+
+### How to port forward?
+
+Hosting a private match without UPnP requires you to port forward (see [What is port forwarding?](#what-is-port-forwarding)). 
+Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google.
+
+Port forwarding should look something like the screenshot below.
+Rule name can be anything, Protocol is UDP (Both works too but isn't required)
+External and Internal port value should always be the same. The value is the port given in the guide for your game
+![img](/images/docs/custom-games/port_forward_example.png)
 
 ## Add a friend to your friend list
 
@@ -44,10 +70,11 @@ Your friend will appear in the Plutonium overlay's Friend list tab if you both f
 <Alert variant="tip">
 
 There is no party system in Plutonium so your friend(s) can only join you while you're in-game (or finished loading in the loading screen).
-To be able to play with your friends on round 1 you can force the game to wait in the loading screen until a certain amount of players connect with the commands below. (These commands need to be entered in the [console](https://plutonium.pw/docs/opening-console/). Replace `2` by the number of players you want to wait for before starting the game.
+To be able to play with your friends on round 1 you can force the game to wait in the loading screen until a certain amount of players connect with the commands below. 
+(These commands need to be entered in the [console](https://plutonium.pw/docs/opening-console/). Replace `2` by the number of players you want to wait for before starting the game).
 
-`sp_minplayers 2` [T4]  
-`zombies_minplayers 2` [T6]
+`/sp_minplayers 2` [T4]  
+`/zombies_minplayers 2` [T6]
 
 </Alert>
 
@@ -64,33 +91,26 @@ Once you and your friend are following each other, the person who wants to host 
 - If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`
 - Your friend should now be able to join by double-clicking your name in the Friends List tab of the Plutonium overlay
 
+If you can't get it to work even with UPnP enabled then you will have to port forward instead. 
+For that read [If UPnP is still disabled or you can't connect despite it being enabled](#if-upnp-is-still-disabled-or-you-cant-connect-despite-it-being-enabled)
+
 ---
 
 ### **If UPnP is Disabled**
 
-- Go to Windows Settings -> Network & Internet, then hit Properties under your network name.
+- Enable UPnP (see [How to enable UPnP?](#how-to-enable-upnp))
 
-![img](/images/docs/custom-games/PnaSif4.png)
-
-- Set the Network Profile to Private
-
-![img](/images/docs/custom-games/hC6G8QN.png)
-
-- Restart the game
 - If UPnP is now enabled follow the [instructions above](#if-upnp-is-enabled). If it's not follow the [instructions below](#if-upnp-is-still-disabled-or-you-cant-connect-despite-it-being-enabled).
 
 ---
 
 ### **If UPnP is still disabled or you can't connect despite it being enabled**
 
-- Forward the following ports:  
-`28960-28961` (UDP) [T4]  
-`4976-4977` (UDP) [T6]  
-  - Hosting a private match without UPnP requires you to port forward. Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google.
-- Whitelist the following ports inside Windows Firewall:  
-`28960-28961` (UDP) [T4]  
-`4976-4977` (UDP) [T6]  
-  - This [Tom's Hardware](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html) article might be helpful.
+- Forward the port for your game on your router (see [How to port forward?](##how-to-port-forward)) 
+`28960` (UDP) [for T4]  
+`4976` (UDP) [for T6]  
+- [Whitelist the port in Windows firewall](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html)
+- Make sure nothing will block the connection (your router firewall, your antivirus firewall if you have any etc.)
 - Once those steps are done, open your game and start a private match. **(Parties will not work)**
 - If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`
 - Your friend should now be able to join by double-clicking your name in the Friends List tab of the Plutonium overlay
@@ -105,10 +125,12 @@ Simply start a private match and have your friend join you from Friends > Double
 
 ### **If UPnP is disabled / is not working**
 
-- Forward the port `27016` (UDP)
-  - Hosting a private match without UPnP requires you to port forward. Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google.
-- Whitelist the port `27016` (UDP) in Windows Firewall.
-  - This [Tom's Hardware](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html) article might be helpful.
+Hosting a private match without UPnP requires you to port forward (see [What is port forwarding?](#what-is-port-forwarding)). 
+Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google.
+
+- Forward the port `27016` (UDP) on your router (see [How to port forward?](##how-to-port-forward))
+- [Whitelist the port in Windows firewall](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html)
+- Make sure nothing will block the connection (your router firewall, your antivirus firewall if you have any etc.)
 - Once those steps are done, open your game and start a private match. **(Parties will not work)**
 - If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`
 - Your friend should now be able to join by double-clicking your name in the Friends List
