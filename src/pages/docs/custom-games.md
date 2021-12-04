@@ -50,7 +50,11 @@ We recommend searching "your router name + enable UPnP" on Google or searching i
 Hosting a private match without UPnP requires you to port forward (see [What is port forwarding?](#what-is-port-forwarding)).
 Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google.
 
-Port forwarding should look something like the screenshot below.
+You can either create a port range rule, for example 1000-1005 will open every port between 1000 and 1005 including 1000 and 1005.
+Or you can create a rule for each port required, for example for T6 one rule for 4976 and another one for 4977.
+The ports values/range is given on section for your game. For example 4976-4977 means both the port 4976 and the port 4977 or a port range from 4976 to 4977.
+
+Opening a single port should look something like the screenshot below.
 Rule name can be anything, Protocol is UDP (Both works too but isn't required)
 External and Internal port value should always be the same. The value is the port given in the guide for your game
 ![img](/images/docs/custom-games/port_forward_example.png)
@@ -73,8 +77,8 @@ There is no party system in Plutonium so your friend(s) can only join you while 
 To be able to play with your friends on round 1 you can force the game to wait in the loading screen until a certain amount of players connect with the commands below.
 (These commands need to be entered in the [console](https://plutonium.pw/docs/opening-console/). Replace `2` by the number of players you want to wait for before starting the game).
 
-`/sp_minplayers 2` [T4]  
-`/zombies_minplayers 2` [T6]
+`sp_minplayers 2` [T4]  
+`zombies_minplayers 2` [T6]
 
 </Alert>
 
@@ -107,8 +111,8 @@ For that read [If UPnP is still disabled or you can't connect despite it being e
 ### **If UPnP is still disabled or you can't connect despite it being enabled**
 
 - Forward the port for your game on your router (see [How to port forward?](##how-to-port-forward))
-`28960` (UDP) [for T4]  
-`4976` (UDP) [for T6]  
+`28960-28961` (UDP) [for T4]  
+`4976-4977` (UDP) [for T6]  
 - [Whitelist the port in Windows firewall](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html)
 - Make sure nothing will block the connection (your router firewall, your antivirus firewall if you have any etc.)
 - Once those steps are done, open your game and start a private match. **(Parties will not work)**
