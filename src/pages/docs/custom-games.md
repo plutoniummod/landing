@@ -47,7 +47,7 @@ We recommend searching "your router name + enable UPnP" on Google or searching i
 
 ### How to port forward?
 
-Hosting a private match without UPnP requires you to port forward (see [What is port forwarding?](#what-is-port-forwarding)). 
+Hosting a private match without UPnP requires you to port forward (see [What is port forwarding?](#what-is-port-forwarding)).
 Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google.
 
 Port forwarding should look something like the screenshot below.
@@ -70,7 +70,7 @@ Your friend will appear in the Plutonium overlay's Friend list tab if you both f
 <Alert variant="tip">
 
 There is no party system in Plutonium so your friend(s) can only join you while you're in-game (or finished loading in the loading screen).
-To be able to play with your friends on round 1 you can force the game to wait in the loading screen until a certain amount of players connect with the commands below. 
+To be able to play with your friends on round 1 you can force the game to wait in the loading screen until a certain amount of players connect with the commands below.
 (These commands need to be entered in the [console](https://plutonium.pw/docs/opening-console/). Replace `2` by the number of players you want to wait for before starting the game).
 
 `/sp_minplayers 2` [T4]  
@@ -91,7 +91,7 @@ Once you and your friend are following each other, the person who wants to host 
 - If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`
 - Your friend should now be able to join by double-clicking your name in the Friends List tab of the Plutonium overlay
 
-If you can't get it to work even with UPnP enabled then you will have to port forward instead. 
+If you can't get it to work even with UPnP enabled then you will have to port forward instead.
 For that read [If UPnP is still disabled or you can't connect despite it being enabled](#if-upnp-is-still-disabled-or-you-cant-connect-despite-it-being-enabled)
 
 ---
@@ -106,7 +106,7 @@ For that read [If UPnP is still disabled or you can't connect despite it being e
 
 ### **If UPnP is still disabled or you can't connect despite it being enabled**
 
-- Forward the port for your game on your router (see [How to port forward?](##how-to-port-forward)) 
+- Forward the port for your game on your router (see [How to port forward?](##how-to-port-forward))
 `28960` (UDP) [for T4]  
 `4976` (UDP) [for T6]  
 - [Whitelist the port in Windows firewall](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html)
@@ -125,7 +125,7 @@ Simply start a private match and have your friend join you from Friends > Double
 
 ### **If UPnP is disabled / is not working**
 
-Hosting a private match without UPnP requires you to port forward (see [What is port forwarding?](#what-is-port-forwarding)). 
+Hosting a private match without UPnP requires you to port forward (see [What is port forwarding?](#what-is-port-forwarding)).
 Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google.
 
 - Forward the port `27016` (UDP) on your router (see [How to port forward?](##how-to-port-forward))
