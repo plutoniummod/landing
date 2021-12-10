@@ -2,7 +2,7 @@
 
 If you are encountering Low FPS you can try these steps to increase it.
 
-## Method 1
+## Method 1 (fullscreen optimization)
 
 1\. Open the Plutonium Launcher's `bin` folder. You can do this by pressing `Windows Key + R` and typing `%localappdata%\Plutonium\bin`
 
@@ -12,7 +12,7 @@ If you are encountering Low FPS you can try these steps to increase it.
 
 ![gif](/images/docs/low-fps/g7ClFcD.png)
 
-## Method 2 (Laptops with two GPUs)
+## Method 2 (laptops with two GPUs)
 
 1\. Open your windows settings -> System -> Display -> Graphics settings (on the bottom)
 
@@ -30,13 +30,18 @@ If you are encountering Low FPS you can try these steps to increase it.
 
 ![img](/images/docs/low-fps/OWfru0K.png)
 
-## Method 3
+## Method 3 (capping the game FPS)
 
 1. [Open the console](/docs/opening-console/)
 
-2. Type `com_maxfps 250` and press Enter (This command locks your framerate to 250, as higher values are known to cause instability.)
+2. Type `com_maxfps 60` and press Enter (Replace `60` by [your monitor refresh rate](https://www.testufo.com/refreshrate))
+   (Don't go above 250 as higher values are known to cause instability)
 
-## Method 4
+## Method 4 (updating GPU drivers)
+
+Keeping your GPU drivers up-to-date is important for performance and stability. [See this guide](https://www.howtogeek.com/135976/how-to-update-your-graphics-drivers-for-maximum-gaming-performance/)
+
+## Method 5 (lowering video settings)
 
 Some computers can't handle higher graphics, lowering your graphics settings in game may help on weaker computers.
 
