@@ -211,14 +211,14 @@ You will know it's done when the progress changes to `100%` and the status chang
 
 ![img](/images/docs/install/9wYQgJ3.png)
 
-3. Locate your MW3 game folder in file explorer. 
+3. Locate your MW3 game folder in file explorer.
 By default Steam will have installed it into the following location: `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Modern Warfare 3`
 You can also find your folder through Steam if needed
 
 ![img](/images/docs/install/K7dj3mP.png)
 
 
-4. Now go back to the `MW3 DLC [EN].zip` file and drag and drop the `main` & `zone` folders into your MW3 game folder. 
+4. Now go back to the `MW3 DLC [EN].zip` file and drag and drop the `main` & `zone` folders into your MW3 game folder.
 If prompted select `Replace files in the destination`.
 
 ![img](/images/docs/install/3m5tWAj.png)
