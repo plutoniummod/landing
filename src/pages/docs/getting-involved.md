@@ -6,5 +6,5 @@ is highly encouraged. The community always needs a helping hand, so checking our
 
 ## I want to help but I'm still not sure how
 
-No problem! If you want to make a mod, take a look at our [modding documentation](/docs/modding) or on the [forums](https://forum.plutonium.pw/).
-Think about things that you may have had trouble with when you started, and document the process and share it on the forums. Again, anything that can help Plutonium and our community. If you're still unsure about your technical skills, you can always help us by [contributing](/docs/how-can-i-contribute)!
+No problem! If you want to make a mod, take a look at our [modding documentation](https://plutonium.pw/docs/modding/) or on the [forums](https://forum.plutonium.pw/).
+Think about things that you may have had trouble with when you started, and document the process and share it on the forums. Again, anything that can help Plutonium and our community. If you're still unsure about your technical skills, you can always help us by [contributing](https://plutonium.pw/docs/how-can-i-contribute/)!
