@@ -29,6 +29,7 @@ You don't need the video & sound folders, the .ipak files nor the SP level files
 ![img](/images/docs/server/t6/setting-up-a-server/bats.png)
 
 4. Next, Press `Windows+R` and type `%localappdata%\Plutonium` and move everything from inside the ZIP's `localappdata` > `Plutonium` folder into here.
+in the t6 config file open the localappdata file after plutomiun and pass the storage caperta
 
 ![img](/images/docs/server/t6/setting-up-a-server/localappdata.png)
 
