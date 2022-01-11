@@ -20,5 +20,4 @@ in your web server's settings to get downloads functioning:\
 .iwi\
 .iwd\
 .files\
-.iwi\
 .csv
