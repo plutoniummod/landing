@@ -11,7 +11,4 @@
 ![img](/images/docs/recording-plutonium-obs/TRRTqji.png)
 ![img](/images/docs/recording-plutonium-obs/mNYfZtx.png)
 
-
-
-Alternative failsafe method
-1. Choose Display Capture. This will always work but has the obvious downside of recording everything on the display and not just plutonium.
+If either of those methods do not work, you can choose `Display Capture` for a source, but keep in mind it will record everything on the display and not just Plutonium.
