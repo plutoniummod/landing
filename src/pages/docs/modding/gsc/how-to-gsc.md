@@ -167,7 +167,7 @@ You can also use [Bitwise (Wikipedia)](https://en.wikipedia.org/wiki/Bitwise_ope
 ^ :: Bitwise Xor (exclusive or)
 << :: Left Shift
 >> :: Right Shift
-~ :: Bitwise NOT (one's compliment)
+~ :: Bitwise NOT (one's complement)
 ```
 
 </Details>
