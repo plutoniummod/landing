@@ -27,7 +27,7 @@
         "defaultMessage": "Télécharger"
     },
     "6UeL2/": {
-        "defaultMessage": "Les scripts GSC sont pris en charge dans tous les jeux pour lesquels nous avons des clients. {br} Même si la version vapeur ne l’a pas fait."
+        "defaultMessage": "Les scripts GSC sont pris en charge dans tous les jeux pour lesquels nous avons des clients. {br} Même si la version Steam n'en avait pas."
     },
     "6iQXUX": {
         "defaultMessage": "Serveurs dédiés"
@@ -36,7 +36,7 @@
         "defaultMessage": "Clients améliorés"
     },
     "77mpfV": {
-        "defaultMessage": "Jouez-y comme vous le souhaitez."
+        "defaultMessage": "Jouez comme vous le souhaitez."
     },
     "7MDoOM": {
         "defaultMessage": "Les vulnérabilités de sécurité que nous avons trouvées dans les jeux de base nous-mêmes (!), ont été corrigées."
@@ -45,7 +45,7 @@
         "defaultMessage": "Modifier cette page"
     },
     "DczuC8": {
-        "defaultMessage": "Notre anti-triche est - à la consternation de nombreux tricheurs - vraiment, vraiment bon pour les attraper."
+        "defaultMessage": "Notre anti-triche est - malheureusement pour les tricheurs - vraiment, vraiment bon."
     },
     "F/Qz9Q": {
         "defaultMessage": "Ce mod n’est pas approuvé ou affilié aux détenteurs des droits d’auteur du jeu de base sous quelque forme que ce soit."
@@ -54,7 +54,7 @@
         "defaultMessage": "Peu importe votre style de jeu, votre mode ou votre clan préféré, il y a probablement un serveur pour cela!"
     },
     "IDX/v+": {
-        "defaultMessage": "Rejoignez les joueurs {playerCount} sur les serveurs {serverCount} {popupIcon} en jouant aux jeux que vous connaissez et aimez, dès maintenant !"
+        "defaultMessage": "Rejoignez les {playerCount} joueurs sur les {serverCount} serveurs {popupIcon} en jouant aux jeux que vous connaissez et aimez, dès maintenant !"
     },
     "LwtywQ": {
         "defaultMessage": "Nous avons ajouté plusieurs armes et cartes supplémentaires aux jeux."
@@ -84,7 +84,7 @@
         "defaultMessage": "Découvrez comment créer votre propre mod"
     },
     "ZB/xew": {
-        "defaultMessage": "La prise en charge de la manette a été ajoutée à chaque jeu."
+        "defaultMessage": "La prise en charge des manettes a été ajoutée à chaque jeu."
     },
     "ahC+Dp": {
         "defaultMessage": "Lire la liste complète des fonctionnalités"
@@ -111,7 +111,7 @@
         "defaultMessage": "Contenu supplémentaire."
     },
     "pIgpHy": {
-        "defaultMessage": "Prise en charge du contrôleur."
+        "defaultMessage": "Prise en charge des manettes."
     },
     "pKZEOC": {
         "defaultMessage": "La semaine dernière"
@@ -135,7 +135,7 @@
         "defaultMessage": "Généralités"
     },
     "2IFGap": {
-        "defaultMessage": "Donner"
+        "defaultMessage": "Donations"
     },
     "3ROQOj": {
         "defaultMessage": "Intro"
@@ -228,13 +228,13 @@
         "defaultMessage": "Mods WaW"
     },
     "20Sj6n": {
-        "defaultMessage": "Visez vers le bas Sensibilité visuelle"
+        "defaultMessage": "Sensibilitié de la visée"
     },
     "J5Q1SJ": {
-        "defaultMessage": "Présence riche en discorde"
+        "defaultMessage": "Statut d'activité Discord"
     },
     "QlWCgp": {
-        "defaultMessage": "Texte de carte personnalisé"
+        "defaultMessage": "Texte du titre personnalisable"
     },
     "WpO2ZA": {
         "defaultMessage": "Système de théâtre/démo"
@@ -261,7 +261,7 @@
         "defaultMessage": "Tous les DLC débloqués"
     },
     "zCmaA6": {
-        "defaultMessage": "UPNP pour les jeux personnalisés"
+        "defaultMessage": "UPNP pour les parties personnalisées"
     },
     "zPLbMW": {
         "defaultMessage": "Prise en charge des moniteurs ultra larges"
