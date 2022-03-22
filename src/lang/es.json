@@ -3,7 +3,7 @@
         "defaultMessage": "Esta página ha sido traducida automáticamente, por lo que puede contener algunas inexactitudes. Puedes ayudar <link1>aportando una traducción</link1>, o bien puedes cambiar a <link2>la versión en inglés</link2>."
     },
     "+GgeKe": {
-        "defaultMessage": "Ejecute su propio servidor, en su propio hardware. Incluso para juegos que anteriormente no tenían soporte para ello."
+        "defaultMessage": "Ejecuta tu propio servidor, en tu propio hardware. Incluso para los juegos que anteriormente no tenían soporte para ello."
     },
     "+vxAfu": {
         "defaultMessage": "Seguridad mejorada."
@@ -12,7 +12,7 @@
         "defaultMessage": "Jugadores"
     },
     "/tG5fS": {
-        "defaultMessage": "Obtén una visión general rápida de los servidores en los que juegan tus amigos, ¡y únete a ellos!"
+        "defaultMessage": "Obtén una visión rápida de los servidores en los que juegan tus amigos, ¡y únete a ellos!"
     },
     "49vo8t": {
         "defaultMessage": "Búsqueda rápida"
@@ -27,7 +27,7 @@
         "defaultMessage": "Descargar"
     },
     "6UeL2/": {
-        "defaultMessage": "El scripting GSC es compatible con todos los juegos para los que tenemos clientes. {br} Incluso si la versión de vapor no lo hiciera."
+        "defaultMessage": "Programación de scripts en GSC compatible con todos los juegos para los que tenemos clientes. {br} Incluso si la versión de Steam no lo hace."
     },
     "6iQXUX": {
         "defaultMessage": "Servidores dedicados"
@@ -45,16 +45,16 @@
         "defaultMessage": "Editar esta página"
     },
     "DczuC8": {
-        "defaultMessage": "Nuestro anti-trampa es, para consternación de muchos tramposos, muy, muy bueno para atraparlos."
+        "defaultMessage": "Nuestro sistema anti-trampas es - para desesperación de muchos tramposos - muy, muy bueno atrapandolos."
     },
     "F/Qz9Q": {
         "defaultMessage": "Este mod no está respaldado ni afiliado con los titulares de los derechos de autor del juego base en ninguna forma."
     },
     "Hi9LY8": {
-        "defaultMessage": "No importa tu estilo de juego, modo o clan favorito, ¡probablemente haya un servidor para ello!"
+        "defaultMessage": "No importa tu estilo de juego, modo o clan favorito - ¡probablemente haya un servidor para ello!"
     },
     "IDX/v+": {
-        "defaultMessage": "¡Únete a los jugadores de {playerCount} en los servidores de {serverCount} {popupIcon} jugando a los juegos que conoces y amas, ¡ahora mismo!"
+        "defaultMessage": "¡Únete a {playerCount} jugadores a través de {serverCount} servidores {popupIcon} jugando a los juegos que conoces y amas, ¡ahora mismo!"
     },
     "LwtywQ": {
         "defaultMessage": "Hemos añadido varias armas y mapas adicionales a los juegos."
@@ -78,16 +78,16 @@
         "defaultMessage": "últimas 24 horas"
     },
     "VGDUVr": {
-        "defaultMessage": "Plutonium Anti-Trampa."
+        "defaultMessage": "Plutonium Anti-Cheat."
     },
     "WusMvg": {
         "defaultMessage": "Descubre cómo crear tu propio mod"
     },
     "ZB/xew": {
-        "defaultMessage": "Se ha agregado soporte de controlador a cada juego."
+        "defaultMessage": "Se ha agregado soporte para mando a cada juego."
     },
     "ahC+Dp": {
-        "defaultMessage": "Leer la lista completa de características"
+        "defaultMessage": "Revisa la lista completa de características"
     },
     "biSGAG": {
         "defaultMessage": "BO2, MW3, WaW redefinido."
@@ -96,10 +96,10 @@
         "defaultMessage": "últimas 12 horas"
     },
     "g10cYq": {
-        "defaultMessage": "Lista de amigos incorporada."
+        "defaultMessage": "Lista de amigos."
     },
     "hNtztD": {
-        "defaultMessage": "Soporte de modding"
+        "defaultMessage": "Soporte para modding"
     },
     "isGKnz": {
         "defaultMessage": "Documentación"
@@ -111,10 +111,10 @@
         "defaultMessage": "Contenido adicional."
     },
     "pIgpHy": {
-        "defaultMessage": "Soporte de controlador."
+        "defaultMessage": "Soporte para mando."
     },
     "pKZEOC": {
-        "defaultMessage": "La semana pasada"
+        "defaultMessage": "semana pasada"
     },
     "rWe5nM": {
         "defaultMessage": "Aprenda a alojar su propio servidor"
@@ -123,7 +123,7 @@
         "defaultMessage": "Las marcas comerciales utilizadas son propiedad de sus respectivos propietarios."
     },
     "v79FgD": {
-        "defaultMessage": "Vea la lista completa de mejoras"
+        "defaultMessage": "Consulta la lista completa de mejoras"
     },
     "xOzQVm": {
         "defaultMessage": "Y mucho, mucho más..."
@@ -141,22 +141,22 @@
         "defaultMessage": "Introducción"
     },
     "4gZKTP": {
-        "defaultMessage": "Servidor de plutonio T4"
+        "defaultMessage": "Servidor de Plutonium T4"
     },
     "4rLYNK": {
-        "defaultMessage": "Cliente de plutonio T4"
+        "defaultMessage": "Cliente de Plutonium T4"
     },
     "6slkqp": {
         "defaultMessage": "Foro"
     },
     "984c5R": {
-        "defaultMessage": "Programa Donante"
+        "defaultMessage": "Programa de Donaciones"
     },
     "9ySmaS": {
-        "defaultMessage": "Cliente de plutonio IW5"
+        "defaultMessage": "Cliente de Plutonium IW5"
     },
     "E35wET": {
-        "defaultMessage": "Servidor de plutonio IW5"
+        "defaultMessage": "Servidor de Plutonium IW5"
     },
     "F/6VqP": {
         "defaultMessage": "Servidor"
@@ -177,25 +177,25 @@
         "defaultMessage": "Ver estadísticas históricas completas"
     },
     "MMJHZw": {
-        "defaultMessage": "Modificación T4"
+        "defaultMessage": "Modding T4"
     },
     "N+77UG": {
-        "defaultMessage": "Modificación IW5"
+        "defaultMessage": "Modding IW5"
     },
     "SjMJeG": {
-        "defaultMessage": "Modificación GSC"
+        "defaultMessage": "Modding GSC"
     },
     "UPIP2S": {
-        "defaultMessage": "Soporte de lanzador de plutonio"
+        "defaultMessage": "Soporte a Plutonium Launcher"
     },
     "ZXp0z1": {
         "defaultMessage": "Funciones"
     },
     "bwW4UI": {
-        "defaultMessage": "Modificación"
+        "defaultMessage": "Modding"
     },
     "ciFFgG": {
-        "defaultMessage": "Servidor de plutonio T6"
+        "defaultMessage": "Servidor de Plutonium T6"
     },
     "d3+wCM": {
         "defaultMessage": "Servidores en línea"
@@ -207,10 +207,10 @@
         "defaultMessage": "Jugadores en línea"
     },
     "jtsrnp": {
-        "defaultMessage": "Soporte al cliente waW"
+        "defaultMessage": "Soporte al cliente WaW"
     },
     "kd/dH5": {
-        "defaultMessage": "Cliente de plutonio T6"
+        "defaultMessage": "Cliente de Plutonium T6"
     },
     "lsB3uV": {
         "defaultMessage": "Mods BO2"
@@ -228,10 +228,10 @@
         "defaultMessage": "Mods de WaW"
     },
     "20Sj6n": {
-        "defaultMessage": "Apunta hacia abajo Sensibilidad a la vista"
+        "defaultMessage": "Sensibilidad de apuntado"
     },
     "J5Q1SJ": {
-        "defaultMessage": "Discordia Rica Presencia"
+        "defaultMessage": "Presencia de juego en Discord"
     },
     "QlWCgp": {
         "defaultMessage": "Texto de tarjeta personalizado"
@@ -264,7 +264,7 @@
         "defaultMessage": "UPNP para juegos personalizados"
     },
     "zPLbMW": {
-        "defaultMessage": "Compatibilidad con monitores ultra amplios"
+        "defaultMessage": "Compatibilidad con monitores Ultra Wide"
     },
     "3SVI5p": {
         "defaultMessage": "Advertencia"
