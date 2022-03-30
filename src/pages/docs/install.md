@@ -327,7 +327,7 @@ To launch WAW simply open the Plutonium launcher and select PLAY
 
 ### ***I just want to update / I already have BO1 installed?***
 
-If you already have the game installed from steam then you can skip the below section and move onto the [Plutonium Launcher](#setting-up-t5-with-the-plutonium-launcher) section.
+If you already have the game installed from steam or had a previous update of Plutonium then you can skip the below section and move onto the **[Installing DLC](#installing-the-dlcs-bo1)** section.
 
 ### ***Installing the base game (BO1)***
 
@@ -368,10 +368,37 @@ Once it's done you will have your copy of the game downloaded, here is an exampl
 
 ---
 
+### Installing the DLCs (BO1)
+
+<Alert variant="warning">
+
+Skip these steps if you installed the game via the torrent. This is for people who used Steam, but do not own any DLC.
+
+</Alert>
+
+1. Download/open your favourite torrent software.
+qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html](https://www.fosshub.com/qBittorrent.html)
+
+2. Download the [torrent file](/t5_dlcs.torrent).
+
+3. Open the torrent file `t5_dlcs.torrent` (from the previous step) it will open up your torrent client program and ask you where you'd like to save the DLCs.
+**SELECT YOUR STEAM BO1 FOLDER**
+
+![img](/images/docs/install/bo1-qb.png)
+
+4. Select `"don't create subfolder"` from the `"content layout"` dropdown menu (in older versions of qbitorrent this will be a checkbox called `"create subfolder"` or `"keep top-level folder"` which you have to untick)
+
+![img](/images/docs/install/f32c04d072946509231016a435e9c521.png)
+
+5. Start the download and wait till the download completes.
+You will know it's done when the progress changes to `100%` and the status changes to `Seeding`.
+
+---
+
 ### Setting up T5 with the Plutonium Launcher
 
 1. Navigate to Black Ops 1 and then hit SETUP and then select your Black Ops 1 game folder:
-![BO1 in launcher](/images/docs/install/4xzmAUX.png)
+![BO1 in launcher](/images/docs/install/bo1-select-launcher.png)
 
 If you are using a steam copy it will be in this location: `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops`
 
