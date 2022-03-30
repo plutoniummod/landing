@@ -51,9 +51,9 @@ You will also need to add the port to your Windows Firewall, refer to this [Tom'
 
 ## 3. Advanced server configuration (Mods / FastDL)
 
-You can read our guide [here](loading-mods) about loading mods onto a dedicated server.
+You can read our guide [here](/docs/server/t4/loading-mods/) about loading mods onto a dedicated server.
 
-To setup FastDL, read our guide [here](fastdl).
+To setup FastDL, read our guide [here](/docs/server/t4/fastdl/).
 
 ## 4. (Optional) Slimming down server directory
 
