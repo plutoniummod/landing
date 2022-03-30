@@ -196,7 +196,7 @@ Once the map is installed, you must load a mod first. If you do not have a mod t
 
 ## T5
 
-### Loading Mods / Custom Zombies Maps
+### Loading Mods / Custom Zombies Maps for BO1
 
 1. Navigate to the T5 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\t5` into it, and hitting Ok.
 
