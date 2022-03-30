@@ -193,3 +193,15 @@ You can place your mod in either of these places:
 3. Place any custom maps in that folder.
 
 Once the map is installed, you must load a mod first. If you do not have a mod to go along with your custom map, you can load a dummy mod by [opening the console](/docs/opening-console) and typing `/fs_game mods/mp_custommaps; vid_restart` followed by `/map mp_yourmapname` and it should load right up.
+
+## T5
+
+### Loading Mods / Custom Zombies Maps
+
+1. Navigate to the T5 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\t5` into it, and hitting Ok.
+
+2. Create a folder called `mods`
+
+![img](/images/docs/modding/loading-mods/bo1-mods.png)
+
+3. Place any mods in that folder.

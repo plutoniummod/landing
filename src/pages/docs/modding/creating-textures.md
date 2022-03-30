@@ -28,7 +28,7 @@ Photoshop can be used as an alternative to Paint.NET but since it's not free we'
 
 To modify a texture we first have to export it from the corresponding game files. This works pretty much the same for T4 and IW5 but works differently for T6.
 
-### T4 and IW5
+### T4, T5, and IW5
 
 1\. Navigate to the `main` folder in your game folder.
 

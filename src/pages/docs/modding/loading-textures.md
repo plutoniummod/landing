@@ -15,6 +15,7 @@ Textures in .iwi format, you can find community made camos and other textures in
 2\. Depending on which game you want to load a custom texture/camo into navigate to the following folder:
 
 - For T4:  `\t4\images`
+- For T5: `\t5\images`
 - For IW5: `\iw5\images`
 - For T6: `\t6\images`
 
