@@ -1991,7 +1991,7 @@
   " to your server name for example if you are hosting a TDM and a Search and Destroy server your ": " au nom de votre serveur par exemple si vous hébergez un TDM et un serveur search and Destroy votre ",
   "'s might look like this:": "peut ressembler à ceci:",
   " is set to ": " est défini sur ",
-  "Download .NET Core 3.1.x Runtime or newer [": "Télécharger .NET Core 3.1.x Runtime ou une version plus récente [",
+  "Download .NET Core 6.0.x Runtime or newer [": "Télécharger .NET Core 6.0.x Runtime ou une version plus récente [",
   "Windows": "Windows",
   "Linux": "Linux",
   "IW4MAdmin": "IW4MAdmin",

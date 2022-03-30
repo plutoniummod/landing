@@ -6,9 +6,9 @@
 * [Knowledge on how to port forward](#port-forwarding)
 * A Plutonium forum account
 * Notepad++/Any other code editor
-* A Copy of the game installed in `C:\gameserver\T4`.
+* A Copy of the game installed in `C:\gameserver\T5`.
 
-![img](/images/docs/server/t4/setting-up-a-server/9gBLKYe.png)
+![img](/images/docs/server/t5/setting-up-a-server/9gBLKYe.png)
 
 ## 1. Preparation
 
@@ -16,11 +16,11 @@
 
 2. Run `plutonium`, so it can download the required files.
 
-2. Download the [T4 Config Files](https://github.com/xerxes-at/T4ServerConfigs/archive/refs/heads/main.zip)
+2. Download the [T5 Config Files](https://github.com/xerxes-at/T5ServerConfig/archive/refs/heads/master.zip)
 
-3. Save/Extract the configs to `C:\gameserver\T4`
+3. Save/Extract the configs to `C:\gameserver\T5`
 
-![img](/images/docs/server/t4/setting-up-a-server/rHwzjTo.png)
+![img](/images/docs/server/t5/setting-up-a-server/rHwzjTo.png)
 
 ### 1.2 Creating a server key
 
@@ -32,7 +32,7 @@
 
 4. Paste the key into the start bat under `set key=xxxx`, replace `xxxx` with your key.
 
-![img](/images/docs/server/t4/setting-up-a-server/CA9Ryjp.png)
+![img](/images/docs/server/t5/setting-up-a-server/CA9Ryjp.png)
 
 ## 2. Basic server configuration
 
@@ -41,7 +41,7 @@
 3\. Double click the bat file.  
 4\. Wait for the server to finish loading.  
 
-![img](/images/docs/server/t4/setting-up-a-server/0BaYCo6.png)
+![img](/images/docs/server/t5/setting-up-a-server/0BaYCo6.png)
 
 ## Port Forwarding
 
@@ -51,31 +51,15 @@ You will also need to add the port to your Windows Firewall, refer to this [Tom'
 
 ## 3. Advanced server configuration (Mods / FastDL)
 
-You can read our guide [here](/docs/server/t4/loading-mods/) about loading mods onto a dedicated server.
+You can read our guide [here](/docs/server/t5/loading-mods/) about loading mods onto a dedicated server.
 
-To setup FastDL, read our guide [here](/docs/server/t4/fastdl/).
+To setup FastDL, read our guide [here](/docs/server/t5/fastdl/).
 
 ## 4. (Optional) Slimming down server directory
 
-* You can delete the `video` folder inside `main`.
-* You can remove certain files from IWDs (Use 7-Zip to open IWDs)
-* You can remove `images` from iw_00.
-* You can remove the entire IWD of files iw_01 through iw_13.
-* Do NOT touch iw_14.
-* You can delete iw_15 through iw_20.
-* Do NOT touch iw_21.
-* You can remove `images` and `sound` from iw_22.
-* You can delete iw_23.
-* You can remove `images` from iw_24
-* You can delete iw_25.
-* You can remove `images` and `sound` from iw_26.
-* You can delete iw_27.
-* You can remove `images` and `sound` from localized_english_iw00.
-* You can delete localized_english_iw01 through localized_english_iw03.
-* You can remove `images` and `sound` from localized_english_iw04.
-* You can delete localized_english_iw05 and localized_english_iw06.
+* You can delete everything inside `main` except `iw_00.iwd` and `server.cfg`.
 
-![Final Image](/images/docs/server/t4/setting-up-a-server/Na25CV0.png)
+![Final Image](/images/docs/server/t5/setting-up-a-server/Na25CV0.png)
 
 ## 5. (Optional) Install a server management tool (IW4MAdmin)
 
@@ -117,7 +101,4 @@ This is due to the client having a check that only one copy is open at a time. S
 
 ### You said we can delete game files to save disk space, is it worth it?
 
-We recommend it, the files to host MP and ZM servers from the same folder with all maps and modes require roughly 1.7GB instead of 22GB and HIGHLY speeds up loading times as unnecessary files are not loaded.
-
-### Why does everyone get an time out during a map change?
-We are not entirely sure but it seems to be related to certain dvars not being set to their default value. Only known dvar to cause this is `party_maxplayers`.
+We recommend it, the files to host MP and ZM servers from the same folder with all maps and modes require roughly 3GB instead of 11GB and HIGHLY speeds up loading times as unnecessary files are not loaded.

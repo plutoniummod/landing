@@ -1993,7 +1993,7 @@
   " to your server name for example if you are hosting a TDM and a Search and Destroy server your ": " zu Ihrem Servernamen, z.B. wenn Sie ein TDM und einen Search and Destroy Server hosten, ",
   "'s might look like this:": "'s könnte wie folgt aussehen:",
   " is set to ": " ist gesetzt auf ",
-  "Download .NET Core 3.1.x Runtime or newer [": ".NET Core 3.1.x Runtime oder neuer herunterladen [",
+  "Download .NET Core 6.0.x Runtime or newer [": ".NET Core 6.0.x Runtime oder neuer herunterladen [",
   "Windows": "Fenster",
   "Linux": "Linux",
   "IW4MAdmin": "IW4MAdmin",
