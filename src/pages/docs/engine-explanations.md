@@ -1,10 +1,11 @@
-# T4, T6, IW5 - What do they all mean?
+# T4, T5, T6, IW5 - What do they all mean?
 
 In short, these refer to the codename each game is based off of during it's development.
 
 They are as follows:  
 
 * T4 - World at War
+* T5 - Black Ops I
 * T6 - Black Ops II
 * IW5 - Modern Warfare 3
 

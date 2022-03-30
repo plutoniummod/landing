@@ -322,3 +322,73 @@ As the error says you have an invalid game path selected in the launcher. To fix
 **Congratulations you have completed the installation guide.**
 
 To launch WAW simply open the Plutonium launcher and select PLAY
+
+## T5 (Black Ops 1)
+
+### ***I just want to update / I already have BO1 installed?***
+
+If you already have the game installed from steam then you can skip the below section and move onto the [Plutonium Launcher](#setting-up-t5-with-the-plutonium-launcher) section.
+
+### ***Installing the base game (BO1)***
+
+This section will cover downloading a copy of BO1. Please skip this section if you already have a copy of the game.
+
+Please note we highly recommend buying the game if you do not own it, it is the best way to get a copy of the game files that are up to date and not corrupt or changed in some way. Key sites will give you a decent discount in 2021.
+
+1. Create a folder on any drive called `Games`.
+
+2. From the windows file explorer navigate to My PC, then to Local Disc (C:) and create a new folder called Games.
+![PC Explorer](/images/docs/install/bmMI4UH.png)
+![Games Folder](/images/docs/install/1MphGAa.png)
+![Games Folder Completed](/images/docs/install/cRa2jC2.png)
+
+<Alert variant="warning">
+
+Torrenting copyright protected files might not be legal in your country even if you already own a valid license!
+We are not responsible for any legal issues and recommend you to use a <a href="steam://install/42700">fresh install from Steam</a> or a VPN.
+
+</Alert>
+
+3. Download/open your favorite torrent software.
+[qBittorent Windows x64](https://www.fosshub.com/qBittorrent.html) is recommended.
+
+4. Download the [torrent file](/pluto_t5_full_game.torrent).
+
+5. Open the torrent file, it will open up your torrent client program and ask you where you'd like to save the game.
+
+**SELECT THE GAMES FOLDER AS THE SAVE LOCATION, YOU CREATED IT IN STEP 1**
+
+6. Start the download and wait till the download completes you will know it's done when the progress changes to `100%` and the status changes to `Seeding`.
+
+**Once it says Seeding, you can delete it from qBittorrent.**
+
+Once it's done you will have your copy of the game downloaded, here is an example of a completed base game folder:
+
+![Completed T5 Folder](/images/docs/install/NoAuNW9.png)
+
+---
+
+### Setting up T5 with the Plutonium Launcher
+
+1. Navigate to Black Ops 1 and then hit SETUP and then select your Black Ops 1 game folder:
+![BO1 in launcher](/images/docs/install/4xzmAUX.png)
+
+If you are using a steam copy it will be in this location: `C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops`
+
+If you are using the torrent it will be in a folder named `pluto_t5_full_game`
+
+(If you ever need to reselect the game folder, simply click the COG icon next to the PLAY button)
+
+---
+
+### T5 Error: Invalid Game Path
+
+![Invalid Game Directory](/images/docs/install/vlwamKe.png)
+
+As the error says you have an invalid game path selected in the launcher. To fix this issue click the cog to reselect your game folder.
+
+---
+
+**Congratulations you have completed the installation guide.**
+
+To launch BO1 simply open the Plutonium launcher and select PLAY
