@@ -1,10 +1,10 @@
 # How to repair your game files
 
-## The repair Process for T4 and T6
+## The repair Process for T4, T5, and T6
 
 <Alert variant="tip">
 
-If you torrented the game, follow these steps. If you used Steam, follow [the Steam repair guide](#the-repair-process-for-t4-and-t6-steam)
+If you torrented the game, follow these steps. If you used Steam, follow [the Steam repair guide](#the-repair-process-for-t4-t5-and-t6-steam)
 
 </Alert>
 
@@ -13,6 +13,7 @@ If you torrented the game, follow these steps. If you used Steam, follow [the St
 * [qBittorrent](https://www.fosshub.com/qBittorrent.html) (or any other torrent client)
 * The .torrent file of the game you want to repair:
   * [For T4](/pluto_t4_full_game.torrent)
+  * [For T5](/pluto_t5_full_game.torrent)
   * [For T6](/pluto_t6_full_game.torrent)
 
 1\. Open the .torrent file for the game you wish to repair in QBittorrent, if QBittorrent is the only torrent client you have installed simply double clicking the torrent file should open it right away.
@@ -29,7 +30,7 @@ If you torrented the game, follow these steps. If you used Steam, follow [the St
 
 Congratulations, your game files should now be repaired.
 
-## The repair Process for T4 and T6 (Steam)
+## The repair Process for T4, T5, and T6 (Steam)
 
 [Official Steam guide to repair your game](https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB)
 
