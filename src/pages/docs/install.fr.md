@@ -44,7 +44,7 @@ Ignorez cette section si vous avez déjà une copie du jeu depuis Steam ou Pluto
 
 <Alert variant="warning">
   
-Le torrenting de fichiers protégés par le droit d’auteur peut ne pas être légal dans votre pays, même si vous possédez déjà une licence valide! 
+Le torrenting de fichiers protégés par le droit d’auteur peut ne pas être légal dans votre pays, même si vous possédez déjà une licence valide!
 Nous ne sommes pas responsables des problèmes juridiques et vous recommandons d'acheter le jeu ou d'utiliser un VPN lors du téléchargement d'un torrent.
 
 </Alert>
@@ -74,7 +74,7 @@ Cette partie est pour les personnes utilisant leurs fichiers Steam et qui ne pos
 
 </Alert>
 
-1. Téléchargez/ouvrez votre client torrent. 
+1. Téléchargez/ouvrez votre client torrent.
 qBittorent Windows x64 est recommandé : [https://www.fosshub.com/qBittorrent.html](https://www.fosshub.com/qBittorrent.html)
 
 2. Téléchargez le [fichier torrent](/t6_dlcs.torrent).
@@ -91,7 +91,7 @@ Votre client torrent va s'ouvrir et vous demander où vous voulez enregistrer le
 5. Démarrez le téléchargement et attendez que le téléchargement soit terminé.  
 Vous saurez qu’il est terminé lorsque la barre de progression passe à `100%` et que le statut passe à `Émission` ou `Partage`.
 
-### Configurer T6 dans le launcher Plutonium 
+### Configurer T6 dans le launcher Plutonium
 
 1. Cliquez sur l'onglet Black Ops 2, cliquez sur **SETUP** puis sélectionnez le dossier contenant les fichiers de Black Ops 2 :
 
@@ -173,7 +173,8 @@ Vous pouvez surveiller la progression en cliquant sur le bouton `TÉLÉCHARGEMEN
 
 ### Installation des DLC (MW3)
 
-Cette section expliquera comment télécharger et installer le DLC anglais pour avoir toutes les cartes. Note : ces DLC ne fonctionneront que sur une version anglaise du jeu. 
+Cette section expliquera comment télécharger et installer le DLC anglais pour avoir toutes les cartes
+Note : ces DLC ne fonctionneront que sur une version anglaise du jeu. 
 Vous pouvez les télécharger en utilisant le lien MEGA ou le fichier torrent.  
 **Vous n’avez pas besoin de télécharger les deux, choisissez l’option qui vous convient le mieux.**
 
@@ -195,7 +196,7 @@ Vous pouvez également trouver votre dossier via Steam si nécessaire
 
 ![img](/images/docs/install/K7dj3mP.png)
 
-4. Retournez dans le zip `MW3 DLC [EN].zip` et faites glisser les dossiers `main` et `zone` dans le dossier content les fichiers de MW3. 
+4. Retournez dans le zip `MW3 DLC [EN].zip` et faites glisser les dossiers `main` et `zone` dans le dossier content les fichiers de MW3.
 Si il est vous est demandé de remplacer des fichiers sélectionnez `Remplacer les fichiers`.
 
 ![img](/images/docs/install/3m5tWAj.png)
@@ -233,7 +234,7 @@ Vous saurez qu’il est terminé lorsque la barre de progression passe à `100%`
 
 Vous avez maintenant terminé l'installation des DLC de MW3.
 
-### Configurer IW5 dans le launcher Plutonium 
+### Configurer IW5 dans le launcher Plutonium
 
 1. 1. Cliquez sur l'onglet Modern Warfare 3, cliquez sur **SETUP** puis sélectionnez le dossier contenant les fichiers de Modern Warfare 3 :
 ![img](/images/docs/install/qDJ7OeD.png)
@@ -274,13 +275,13 @@ Cette section explique comment télécharger une copie de WAW. Ignorez cette sec
 ![Games Folder Completed](/images/docs/install/cRa2jC2.png)
 
 <Alert variant="warning">
-  
+
 Le torrenting de fichiers protégés par le droit d’auteur peut ne pas être légal dans votre pays, même si vous possédez déjà une licence valide! 
 Nous ne sommes pas responsables des problèmes juridiques et vous recommandons d'acheter le jeu ou d'utiliser un VPN lors du téléchargement d'un torrent.
 
 </Alert>
 
-3. Téléchargez/ouvrez votre client torrent. 
+3. Téléchargez/ouvrez votre client torrent.
 qBittorent Windows x64 est recommandé : [https://www.fosshub.com/qBittorrent.html](https://www.fosshub.com/qBittorrent.html)
 
 4. Téléchargez le [fichier torrent](/pluto_t4_full_game.torrent).
@@ -298,7 +299,7 @@ Une fois le téléchargement terminé, vous aurez téléchargé votre copie du j
 
 ---
 
-### Configurer T4 dans le launcher Plutonium 
+### Configurer T4 dans le launcher Plutonium
 
 1. Cliquez sur l'onglet World At War, cliquez sur **SETUP** puis sélectionnez le dossier contenant les fichiers de World At War :
 ![WAW in launcher](/images/docs/install/4xzmAUX.png)
