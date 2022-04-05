@@ -1,25 +1,12 @@
 # Anticheat
 
-Plutonium has an anti-cheat that was completely custom made by our developers. While we cannot divulge information on how it works, we can confidently say that it works as we have thwarted over
-[20,000 cheating attempts!](https://forum.plutonium.pw/topic/10225/anticheat-1-year-statistics) It will never catch everything but it most people agree that is does a better job than some others out there.
-
 Plutonium a un anti-triche qui a été entièrement fait sur mesure par nos développeurs. Bien que nous ne puissions pas divulguer d’informations sur son fonctionnement, nous pouvons dire en toute confiance qu'il fonctionne. 20 000 tentatives de triche on été contrées ! Il n’attrapera jamais tous les tricheurs, mais la plupart des gens s’accordent à dire qu’il fait un meilleur travail que d’autres anti-triches.
-
-## Plutonium Cheat Policy
 
 ## Politique de triche de Plutonium
 
 Il est important que vous lisiez et compreniez la politique suivante en ce qui concerne notre système anti-triche.
 
 **Lors de la détection d’un cheat :**
-
-* Automatic ban of 7 days is placed onto the account.
-* When the player tries to login, they will be displayed a message which tells them they are banned and also tells them how long is left until the ban expires.
-* Attempting to bypass the ban in any way will lead to further restrictions.
-* Once the ban length has expired, the system will automatically remove the ban.
-* If the player is caught cheating again, the system will ban the account permanently.
-* We will not provide any information regarding any given ban, remember you broke our rules.
-
 
 * Le compte est automatiquement banni 7 jours.
 * Lorsque le joueur essaie de se connecter, un message lui indique qu’il est banni et lui indique également combien de temps il lui reste avant l’expiration de l’interdiction.
@@ -31,9 +18,6 @@ Il est important que vous lisiez et compreniez la politique suivante en ce qui c
 
 
 <Alert variant="danger">
-
-The anticheat is always active even in solo play / private match.  
-If you wish to cheat in private / solo you can use the <a href="#how-to-disable-the-plutonium-anti-cheat">launchers LAN mode</a> which disables online functionality and disables the anticheat.  
 
 L’anticheat est toujours actif même en solo / match privé.
 Si vous souhaitez tricher en privé / solo, vous pouvez utiliser <a href="#how-to-disable-the-plutonium-anti-cheat">le mode LAN</a> sur le launcher qui désactive la fonctionnalité en ligne et désactive l’anticheat.
