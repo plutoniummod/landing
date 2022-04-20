@@ -105,6 +105,11 @@ For those struggling to locate your game folder, this is what the contents of th
 
 ![Completed Game Folder](/images/docs/install/B8g1bXI.png)
 
+### Instalation Guide
+
+<Player url="https://www.youtube.com/watch?v=arg0_sSSuxM&t=88s" />
+
+
 ### T6 Error: Invalid Game Path
 
 ![img](/images/docs/install/46KPMDc.png)
