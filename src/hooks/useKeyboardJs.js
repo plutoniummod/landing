@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useMount } from 'react-use';
 
 // taken from react-use, but patched to call event.preventDefault() to fix:
-// https://github.com/plutoniumpw/landing/issues/29
+// https://github.com/plutoniummod/landing/issues/29
 
 const useKeyboardJs = (combination) => {
     const [state, set] = useState([false, null]);

@@ -20,7 +20,7 @@ Build with:
 
 ```bash
 # Get the latest code
-git clone https://github.com/plutoniumpw/landing.git
+git clone https://github.com/plutoniummod/landing.git
 
 # Change into the newly cloned directory
 cd landing
@@ -36,7 +36,7 @@ npm run dev
 
 - After any new `<FormattedMessage ... />` statements are added, run `npm run i18n:extract`
 - To auto translate these new messages, run `npm run i18n:translate-missing`. Ensure a MS cognitive services key is set up as `NEXT_TRANSLATION_API_KEY` in `.env`
-- Finally, run `npm run i18n:compile`, or restart the development server (`npm run dev`) 
+- Finally, run `npm run i18n:compile`, or restart the development server (`npm run dev`)
 
 ## Working on the docs
 
@@ -67,7 +67,7 @@ Several components exist outside of the normal markdown syntax for situations wh
   variant="warning" // ... or info, tip, danger.
 >
 
-The docs are a work in progress. Feel free to contribute on [GitHub](https://github.com/plutoniumpw/site/).
+The docs are a work in progress. Feel free to contribute on [GitHub](https://github.com/plutoniummod/site/).
 
 </Alert>
 ```

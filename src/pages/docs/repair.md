@@ -18,6 +18,12 @@ If you torrented the game, follow these steps. If you used Steam, follow [the St
 
 1\. Open the .torrent file for the game you wish to repair in QBittorrent, if QBittorrent is the only torrent client you have installed simply double clicking the torrent file should open it right away.
 
+<Alert variant="warning">
+
+If the torrent is already loaded in your torrent client (possibly from the initial game download) remove it first. Right click it in the list of active torrents and select the option to delete it.
+
+</Alert>
+
 2\. You will be prompted with an overview of the files the torrent contains, select your **game folder** (depending on which game you want to repair) as the download location.
 
 3\. Next comes the most important step: **Select "don't create subfolder" from the "content layout" dropdown menu (in older versions of QBitorrent this will be a checkbox called "create subfolder" or "keep top-level folder" which you have to untick)**.

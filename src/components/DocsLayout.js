@@ -10,7 +10,7 @@ import { FormattedMessage } from 'react-intl';
 import Link from 'next/link';
 import { useTitles } from '../hooks/useTitles';
 
-const GITHUB_PREFIX = 'https://github.com/plutoniumpw/landing/';
+const GITHUB_PREFIX = 'https://github.com/plutoniummod/landing/';
 
 const DocsLayout = ({ children, path, anchors, autoTranslated }) => {
     const { asPath, locale, ...rest } = useRouter();

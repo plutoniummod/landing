@@ -22,4 +22,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         DEFAULT_BRANCH: develop
         VALIDATE_MARKDOWN: true
-        VALIDATE_ALL_CODEBASE: false
+        #VALIDATE_ALL_CODEBASE: false

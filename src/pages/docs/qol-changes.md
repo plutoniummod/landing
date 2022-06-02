@@ -2,17 +2,17 @@
 
 ## All Games
 
-* [Anticheat](anticheat)
+* [Anticheat](/docs/anticheat)
 * Controller Support
-* [Aim Assist](aim-assist) - Although this is WIP for WAW.
+* [Aim Assist](/docs/aim-assist) - Although this is WIP for WAW.
 * `cg_fovScale` unlocked
 * `clanname` dvar, allowing clantags to function
 * `com_maxfps` unlocked
-* [Discord Rich Presence](discord-rpc)
+* [Discord Rich Presence](/docs/discord-rpc)
 * Theater/Demo System for all games
 * UPNP for custom games, which allows friends to join you with minimal effort
 * Ultra Wide Monitor Support
-* `unlockall` - [More Info](unlockall-max-rank)
+* `unlockall` - [More Info](/docs/unlockall-max-rank)
 * Aim Down Sight Sensitivity
   * We've reworked how `cg_fov` and `cg_fovScale` behave. The normal games work by slowing down your sensitivity when aiming down sights, pretty standard for 2012 but it's hard to adjust back too when playing modern games. Plutonium now bases this on your FOVScale.
     * Examples:
