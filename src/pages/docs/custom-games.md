@@ -159,6 +159,24 @@ Since every router is different we can't make a guide for every router so we rec
 {/*- If the match requires 2 players to start you can force it to start anyways with the command `xpartygo`*/}
 - Your friend should now be able to join by double-clicking your name in the Friends List
 
+## T5
+
+### Multiplayer
+
+To play with friends on T5 Multiplayer you must start a private match and invite your friend to join.
+
+![image inviting friend to join](/images/docs/custom-games/t5-invite.png)
+
+![image of friend in game](/images/docs/custom-games/t5-mp-joined.png)
+
+### Zombies
+
+To play with friends on T5 Zombies you can invite them while in a lobby.
+
+![image in lobby inviting a friend](/images/docs/custom-games/t5-zm-invite.png)
+
+![image of said friend in lobby](/images/docs/custom-games/t5-zm-joined.png)
+
 ## Additional Notes
 
 ### LAN Play
