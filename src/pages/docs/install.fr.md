@@ -323,3 +323,104 @@ Pour résoudre ce problème, cliquez sur l’icône suivante pour resélectionne
 
 Vous avez maintenant terminé l'installation de WAW.  
 Pour lancer WAW ouvrez le launcher et cliquez sur PLAY.
+
+## T5 (Black Ops 1)
+
+### Je veux juste mettre à jour / J’ai déjà BO1 installé
+
+Si vous avez déjà installé le jeu à partir de Steam ou si vous avez déjà télécharger le jeu depuis le site de Plutonium, vous pouvez ignorer cette partie et passer à la section **[Installation des DLC](#installing-the-dlcs-bo1)**.
+
+### Installation du jeu de base (BO1)
+
+Cette section explique comment télécharger une copie de BO.  
+Ignorez cette section si vous avez déjà une copie du jeu depuis Steam ou Plutonium.
+
+**Veuillez noter que nous vous recommandons fortement d’acheter le jeu si vous ne le possédez pas, c’est le meilleur moyen d’obtenir une copie des fichiers du jeu qui sont à jour et non corrompus ou modifiés d’une manière ou d’une autre. Les sites de ventes de clés ont souvent des prix intéressants.**
+
+1. Dans l’explorateur de fichiers Windows, accédez à Ce PC, puis à **Disque local (C:)** et créez un nouveau dossier appelé **Jeux**
+
+![PC Explorer](/images/docs/install/bmMI4UH.png)
+![Games Folder](/images/docs/install/1MphGAa.png)
+![Games Folder Completed](/images/docs/install/cRa2jC2.png)
+
+<Alert variant="warning">
+
+Le torrenting de fichiers protégés par le droit d’auteur peut ne pas être légal dans votre pays, même si vous possédez déjà une licence valide !  
+Nous ne sommes pas responsables des problèmes juridiques et vous recommandons <a href="steam://install/42700">d'acheter le jeu sur Steam</a> ou d'utiliser un VPN lors du téléchargement d'un torrent.
+
+</Alert>
+
+2. Téléchargez/ouvrez votre client torrent.  
+qBittorent Windows x64 est recommandé : [https://www.fosshub.com/qBittorrent.html](https://www.fosshub.com/qBittorrent.html)
+
+3. Téléchargez le [fichier torrent](/pluto_t5_full_game.torrent).
+
+4. Ouvrez le fichier torrent `pluto_t5_full_game.torrent` (téléchargé à l’étape précédente).  
+Votre client torrent va s'ouvrir et vous demander où vous voulez enregistrer le jeu.  
+**SÉLECTIONNEZ LE DOSSIER JEUX CRÉÉ À L’ÉTAPE 1 COMME EMPLACEMENT D’ENREGISTREMENT**
+
+
+5. Démarrez le téléchargement et attendez que le téléchargement soit terminé.  
+Vous saurez qu’il est terminé lorsque la barre de progression passe à `100%` et que le statut passe à `Émission` ou `Partage`.
+
+**Une fois qu'il est écrit Emission ou Partage vous pouvez supprimer le torrent de votre client torrent**
+
+Une fois le téléchargement terminé, vous aurez téléchargé votre copie du jeu, voici un exemple de dossier de jeu de base terminé:
+
+![Completed T5 Folder](/images/docs/install/NoAuNW9.png)
+
+---
+
+### Installation des DLC (BO1)
+
+<Alert variant="warning">
+
+Ignorez cette partie si vous avez installé le jeu via le torrent, il contient déjà tout les DLC.  
+Cette partie est pour les personnes utilisant leurs fichiers Steam et qui ne possèdent pas les DLC.
+
+</Alert>
+
+1. Téléchargez/ouvrez votre client torrent.
+qBittorent Windows x64 est recommandé : [https://www.fosshub.com/qBittorrent.html](https://www.fosshub.com/qBittorrent.html)
+
+2. Téléchargez le [fichier torrent](/t5_dlcs.torrent).
+
+3. Ouvrez le fichier torrent `t5_dlcs.torrent` (téléchargé à l’étape précédente).  
+Votre client torrent va s'ouvrir et vous demander où vous voulez enregistrer le jeu.  
+**SÉLECTIONNEZ LE DOSSIER CALL OF DUTY BLACK OPS DANS VOS JEUX STEAM**
+
+![img](/images/docs/install/bo1-qb.png)
+
+4. Sélectionnez `"ne pas créer de sous-dossier"` dans la liste déroulante `"agencement du contenu"` (dans les anciennes versions de qBittorrent il faudra décocher `"créer un sous dossier"` ou `"conserver la structure du dossier"`)
+
+![img](/images/docs/install/f32c04d072946509231016a435e9c521.png)
+
+5. Démarrez le téléchargement et attendez que le téléchargement soit terminé.  
+Vous saurez qu’il est terminé lorsque la barre de progression passe à `100%` et que le statut passe à `Émission` ou `Partage`.
+
+---
+
+### Configurer T5 dans le launcher Plutonium
+
+1. Cliquez sur l'onglet Black Ops, cliquez sur **SETUP** puis sélectionnez le dossier contenant les fichiers de Black Ops :
+![BO1 in launcher](/images/docs/install/bo1-select-launcher.png)
+
+* **Si vous utilisez vos fichiers Steam, il se trouvera à cet emplacement :** `{Lettre disque}\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops`
+
+* **Si vous utilisez le torrent** le dossier a sélectionner sera nommé `pluto_t5_full_game`
+
+**(Si jamais vous avez besoin de resélectionner le dossier du jeu, cliquez simplement sur l’icône D'ENGRENAGE à côté du bouton PLAY)**
+
+---
+
+### Erreur T5 : Chemin du jeu non valide
+
+![Invalid Game Directory](/images/docs/install/vlwamKe.png)
+
+Comme l’erreur l’indique, vous avez sélectionner un chemin de jeu non valide dans le launcher.  
+Pour résoudre ce problème, cliquez sur l’icône suivante pour resélectionner votre dossier de jeu :
+
+---
+
+Vous avez maintenant terminé l'installation de BO2.  
+Pour lancer BO2 ouvrez le launcher et cliquez sur PLAY.
