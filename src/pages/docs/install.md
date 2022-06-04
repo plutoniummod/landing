@@ -87,6 +87,12 @@ qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html
 5. Start the download and wait till the download completes.
 You will know it's done when the progress changes to `100%` and the status changes to `Seeding`.
 
+### [Optional] Installing other languages (BO2)
+
+##### French (voices, text and cinematics)
+- [https://traductionjeux.com/COD-Black-Ops-2-patch-fr.html](https://traductionjeux.com/COD-Black-Ops-2-patch-fr.html)\
+&nbsp;*Known issues : Guns names in Zombies are broken (seems to be replaced by variable names)*
+
 ### Setting up T6 with the Plutonium Launcher
 
 1. Navigate to Black Ops 2 and then hit **SETUP** and then select your Black Ops 2 game folder:
@@ -227,6 +233,11 @@ You will know it's done when the progress changes to `100%` and the status chang
 
 Congratulations the DLC is now installed!
 
+### [Optional] Installing other languages (MW3)
+
+##### French (voices, text and cinematics)
+- [https://traductionjeux.com/COD-Modern-Warfare-3.html](https://traductionjeux.com/COD-Modern-Warfare-3.html)
+
 ### Setting up IW5 with the Plutonium Launcher
 
 1. Navigate to MW3 and then hit **SETUP** and then select your MW3 game folder:
@@ -295,6 +306,13 @@ We are not responsible for any legal issues and recommend you to use a <a href="
 Once it's done you will have your copy of the game downloaded, here is an example of a completed base game folder:
 
 ![Completed T4 Folder](/images/docs/install/NoAuNW8.png)
+
+---
+
+### [Optional] Installing other languages (WAW)
+
+##### French (voices, text and cinematics)
+- [https://traductionjeux.com/COD-World-at-War-patch-fr.html](https://traductionjeux.com/COD-World-at-War-patch-fr.html)
 
 ---
 
@@ -392,6 +410,14 @@ qBittorent Windows x64 is recommended: [https://www.fosshub.com/qBittorrent.html
 
 5. Start the download and wait till the download completes.
 You will know it's done when the progress changes to `100%` and the status changes to `Seeding`.
+
+---
+
+### [Optional] Installing other languages (BO1)
+
+##### French (voices, text and cinematics)
+- [https://traductionjeux.com/COD7%20Black%20Ops.html](https://traductionjeux.com/COD7%20Black%20Ops.html)\
+&nbsp;*Known issues : The name in the menu tabs for choosing maps disappear (but are still clickable)*
 
 ---
 
