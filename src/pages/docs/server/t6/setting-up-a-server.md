@@ -55,7 +55,7 @@ You don't need the video & sound folders, the .ipak files nor the SP level files
 
 ## Port Forwarding
 
-Hosting a game server requires you to port forward to make your server accessible from outside of your network. Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google. **Port forward the port you specified in your start.bat file.**
+Hosting a game server requires you to port forward to make your server accessible from outside of your network. Since every router is different we can't make a guide for every router so we recommend searching "your router name + port forward" on Google. **Port forward the port you specified in your start.bat file. If your NAT type isn't "Open", you will also need to port forward port `3074`.**
 
 You will also need to add the port to your Windows Firewall, refer to this [Tom's Hardware article](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html).
 
