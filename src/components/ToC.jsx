@@ -13,7 +13,7 @@ const ToC = ({ anchors }) => {
                     <h5 className="text-gray-200 uppercase tracking-wide font-semibold mb-3 text-sm lg:text-xs">
                         <FormattedMessage defaultMessage="On this page" />
                     </h5>
-                    <ul className="overflow-x-hidden font-medium table-of-contents">
+                    <ul className="overflow-x-hidden font-medium table-of-contents h-screen-4/5">
                         {anchors.map(({ text, url, depth }, i) => (
                             <li
                                 key={i}

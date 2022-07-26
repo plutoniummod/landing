@@ -35,6 +35,9 @@ module.exports = {
                 bluegray: colors.blueGray,
                 sky: colors.sky,
             },
+            height: {
+                'screen-4/5': '80vh'
+            },
 
             // dark theme largely stolen from https://stefanzweifel.io/posts/2020/07/20/add-dark-mode-support-to-at-tailwindcsstypography
             typography: (theme) => ({
