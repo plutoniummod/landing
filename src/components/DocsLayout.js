@@ -21,9 +21,8 @@ const DocsLayout = ({ children, path, anchors, autoTranslated, description }) =>
     const newTranslationUrl = useMemo(
         () =>
             GITHUB_PREFIX +
-            'new/develop/' +
-            dirname(path) +
-            '?filename=' +
+            'new/develop?filename=' +
+            `${dirname(path)}/` +
             basename(path, extname(path)) +
             `.${locale}` +
             extname(path),
