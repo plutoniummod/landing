@@ -11,7 +11,9 @@ This is happening because your scaling setting in Windows is set to something hi
 
 ## How to fix it
 
-This will only change the setting for Plutonium games while keeping your Windows scaling setting intact for every other applications.
+First, try pressing ALT+Enter to see if the game will force fullscreen. If not, keep reading.
+
+The fix below will only change the setting for Plutonium games while keeping your Windows scaling setting intact for every other applications.
 
 1. Make sure that the Plutonium launcher and any Plutonium game is closed.
 
